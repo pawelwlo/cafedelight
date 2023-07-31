@@ -9,18 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <title>The Bean Machine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Café Delights</title>
 </head>
 
 <body>
   <header>
     
-    <h3>THE BEAN MACHINE</h3>
+    <h3>Café Delights</h3>
         <nav class="nav_right">
-        <p>About</p>
-            <p><a href="selection.html" style="text-decoration: none" >Selection</a> </p>
-        <button>Login</button>
+        <p><a href="index.html" style="text-decoration: none">Home</a></p>
+        <p><a href="about.html" style="text-decoration: none" >About</a>
+        <p><a href="contact.html" style="text-decoration: none;">Contact</a> </p>
         </nav>
 
    
@@ -29,68 +33,74 @@
 <main>
     
     
-<div class="hero">
+<div class="carousel-conatainer">
+    <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
+    <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
+    <div class="carousel-slide">
+        <img src="slide pics/slide_4.png" id="lastClone">
+        <img  src="slide pics/slide_1.png" alt="">
+        
+        <img  src="slide pics/slide_2.png" alt="">
+         
+        <img  src="slide pics/slide_3.png" alt="">
+        
+        <img  src="slide pics/slide_4.png" alt="">
 
-  <div class="banner_left">
-
-    <h1>The Bean <br>Machine</h1>
-    <h2 class="coffee_shop">Coffee Bean Shop</h2>
-      <div class="input_button">
-          <input type="text" placeholder="Search for coffee bean" id="input"><button id="button_pink">
-          <img src="arrow_right.png" alt="arrow" id="arrow"></button>
-      </div>
-  
-  
-
-    </div>
-
-    <div class="banner_right">
-        <img src="coffee_guy.png" alt="coffe_guy" id="coffee_guy" >
-
-
+        <img src="slide pics/slide_1.png" id="firstClone">
 
     </div>
+       
+</div>
+
+ 
+
+
+
+<section class="section_about">
+
+
+<p>Welcome to "Café Delights" in Barcelona! This charming spot specializes in coffee, breakfasts, and heavenly cakes. With premium coffee beans, delicious breakfast options, and delectable cakes, it's a must-visit for all coffee enthusiasts and food lovers alike. </p> 
+<p>Come and enjoy the cozy ambiance and delightful treats!</p> 
+    <p>Visit us at <a href="https://www.google.com/maps/place/La+Rambla,+204,+08002+Barcelona,+Spain/@41.3779347,2.1761501,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a25709160cb9:0xdc88f7a4eb4ad77d!8m2!3d41.3779347!4d2.1761501?entry=ttu" target="_blank"><strong>La Rambla 204</strong></a>, where we serve the best coffee in Barcelona.</p>
+
+</section>
+<h2><span>What we offer</span></h2>
+    
+<div class="special_offers_cont">
+    
+<div class="special_offers_img">
+    <a href="coffee_drinks.html">
+      <img src="coffee_drinks.jpeg" alt="coffee_pic1" id="coffee_pic1" >
+    <p id="banner">Coffee Drinks</p>
+    </a>
+    
+    
+</div>
+    
+    
+<div class="special_offers_img">
+    <a href="breakfast.html">
+      <img src="breakfast.jpg" alt="coffee_pic1" id="coffee_pic1" >
+    <p id="banner">Breakfast</p>
+    </a>
+    
+    <br>
+    
 
 </div>
 
 
 
-    <!-- banner -->
-<section class="section_about">
-
-<h2>About</h2>
-
-<p>We are a specialty Coffee Bean Shop based in Barcelona. Spain.</p> <br>
-<p>We are passionate about the coffee bean quality so we source our beans from all over the world in order to give you the best out there!</p> <br>
-    <p>Visit our specialty coffee shop at <a href="#"><strong>La Rambla 204</strong></a>, where we serve the best coffee in Barcelona.</p>
-
-</section>
-<h2><span>Special offers</span></h2>
+<div class="special_offers_img">
     
-<div class="special_offers">
+    <a href="cakes.html">
+      <img src="cheesecake.jpg" alt="coffee_pic1" id="coffee_pic1" >
+    <p id="banner">Cakes and Desserts</p>
+    </a>
     
-<div class="special_offers_img1">
+    <br>
     
-    
-    <div class="pic_buy1">
-    
-    <img src="coffepic.png" alt="coffee_pic1" id="coffee_pic1" ><p>Costa Rica Single Origin</p><br><button id="button_buy">BUY</button></div></div>
-    
-    
-<div class="special_offers_img2">
-    
-    
-    <div class="pic_buy1">
-    
-    <img src="coffepic.png" alt="coffee_pic1" id="coffee_pic1" ><p>Brazil Medium Roast</p><br><button id="button_buy">BUY</button></div></div>
-
-
-
-<div class="special_offers_img3">
-    
-    <div class="pic_buy1">
-    
-    <img src="coffepic.png" alt="coffee_pic1" id="coffee_pic1" ><p>Colombia Single Origin</p><br><button id="button_buy">BUY</button></div></div>
+</div>
 
   
 </div>
@@ -99,17 +109,20 @@
 </main>    
     
 <footer>
-<!-- footer -->
-<div class="div_footer">
-    <p>Find us on social media</p>
-    <p><img src="logo.png" id="logo"></p>
-</div>
-    
-</footer>
+    <div class="container footer_content">
+      <p>Find us on social media</p>
+      <img src="logo.png" alt="The Bean Machine Logo" class="footer_logo">
+      <div class="footer_contact">
+        <p>Email: info@cafedelights.com</p>
+        <p>Phone: +34 123 456 789</p>
+      </div>
+    </div>
+  </footer>
 
 
 
 
-
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/50c2e5867b.js" crossorigin="anonymous"></script>
 </body>
 </html>
