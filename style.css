@@ -203,8 +203,8 @@ width: 50px;
   /* margin-left: 50px;
   margin-right: 50px; */
   font-family: 'Open Sans', sans-serif;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
   
 }
 
@@ -614,6 +614,11 @@ margin-bottom: 40px;
   .section_about p {
     padding: 20px;
     font-size: medium;
+  }
+
+  .section_about {
+    margin-left: 5px;
+    margin-right: 5px;
   }
   
   .special_offers_cont {
