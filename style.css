@@ -10,10 +10,19 @@ body {
 h1, h2 {
   font-family: 'Lato', sans-serif;
   text-align: center;
+  color: #ea4b35;
 }
 
 h3 {
   font-family: 'Caveat';
+  
+
+}
+
+#selection {
+  font-family: 'Caveat';
+  text-align: center;
+  color: #ea4b35;
 }
 
 p, a {
@@ -724,6 +733,14 @@ margin-bottom: 40px;
     width: 120px;
     height: 120px;
     
+  }
+
+  #selection {
+    font-size: large;
+  }
+
+  .back_home a{
+    font-size: small;
   }
 }
 
