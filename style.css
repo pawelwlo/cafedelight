@@ -209,11 +209,8 @@ width: 50px;
 .section_about {
   
   border-bottom: solid;
-  /* margin-left: 50px;
-  margin-right: 50px; */
   font-family: 'Open Sans', sans-serif;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px;
   
 }
 
@@ -432,12 +429,14 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  margin: 40px;
 }
 
 .contact-form {
   background-color: #FFF;
   padding: 20px;
   border-radius: 5px;
+  object-position: center;
 }
 
 .contact-form h2 {
@@ -621,13 +620,17 @@ margin-bottom: 40px;
   }
   
   .section_about p {
-    padding: 20px;
+    padding: 0px;
     font-size: medium;
   }
+
+
 
   .section_about {
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 0;
+    padding: 0 15px 0 15px;
   }
   
   .special_offers_cont {
